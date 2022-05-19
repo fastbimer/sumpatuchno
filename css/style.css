@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background: url('../img/fonn.jpg') 100% 100%  fixed;
+}
+
+.header {
+	background: black;
+}
+.container {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.header__row {
+	padding: 5px 0;
+	display: block;
+}
+.header__nav {
+	justify-content: space-around;
+	display: flex;
+}
+
+.header__menu {
+	margin: 0 auto;
+	color: #00BFFF;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.header__menu:hover{
+	color: red;
+}
+
+.hi {
+	margin-top: 70px;
+	margin-bottom: 100px;
+	padding-bottom: 20px;
+	padding: 70px 0;
+}
+.hi__title {
+	text-align: center;
+}
+.hi-title {
+	text-shadow: 1px 1px 5px #000;
+	color: #00BFFa;
+	font-weight: 200;
+	font-size: 80px;
+}
+.hi-text{
+	color: white;
+	margin-top: -8px;
+	text-shadow: 1px 1px 5px #fff;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.hi__row {
+	flex-wrap: wrap;
+	margin-top: 30px;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}
+.hi__text {
+	text-align: start;
+	background: url('../img/fon.jpg');
+	text-shadow: 2px 2px 2px #000;
+	margin:0px 10px;
+	margin-bottom: 10px;
+	border-radius: 20px 0px 20px 0;
+	padding: 10px ;
+	color: white;
+	box-shadow: 1px 1px 5px #000, inset 1px 1px 5px #000;
+	font-weight: 200;
+	font-size: 15px;
+	font-size: calc(10px + 5 * (100vw / 1200));
+}
+
+.hi__text span{
+	font-weight: 700;
+	color: red;
+}
+
+.hi__image {
+	margin: 0px 10px;
+}
+
+.hi-img{
+	background: url('../img/fon.jpg');
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px #000, inset 1px 1px 5px #000;
+	width: 100%;
+}
+
+.people {}
+.people__subtitle {
+	padding: 50px;
+}
+.people-title {
+	color: #00BFFa;
+	font-weight: 200;
+	font-size: 80px;
+}
+.people-text {
+	color: white;
+	margin-top: -8px;
+	text-shadow: 1px 1px 5px #fff;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.people__row {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: flex;
+}
+.people__list {
+	background: url('../img/fon.jpg');
+	border-radius: 20px 0 20px 0;
+	margin:0px  10px;
+	margin-bottom: 30px;
+	width: 250px;
+	box-shadow: 1px 1px 5px #000, inset 2px 2px 5px #000;
+}
+
+.people__foto {
+	padding: 5px;
+}
+.bodya{
+	height: 300px;
+	margin-left: 1px;
+	border-radius: 20px 0 0px 0;
+	overflow: hidden;
+	max-width: 300px;
+	width: 100%;
+}
+.people__info {
+}
+.people__title {
+	text-shadow: 3px 3px 4px #000;
+	font-weight: 200;
+	font-size: 40px;
+	color: white;
+}
+.people__text {
+	color: white;
+	text-shadow: 3px 3px 8px #fff;
+	padding: 10px 0;
+	padding-left: 5px;
+	text-align: start;
+}
+
+.feature{
+	margin: 100px 0;
+}
+
+.features {
+	margin: 40px 0;
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+}
+.features__item {
+	width: 33%;
+	margin: 30px 0px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.feature-title {
+	color: red;
+	font-weight: 200;
+	font-size: 80px;
+}
+.feature-text {
+	color: white;
+	margin-top: -8px;
+	text-shadow: 1px 1px 5px #fff;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-size: calc(10px + 5 * (100vw / 1200));
+}
+.features-icons {
+   margin-bottom: 20px;
+}
+.features__title {
+	color: red;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.features__text {
+   color: white;
+   line-height: 20px;
+   font-size: 14px;
+}
+
+.work {
+   flex-wrap: wrap;
+   display: flex;
+}
+.work__item {
+   border-bottom: 1px solid #fff;
+   height: 350px;
+   overflow:hidden;
+   position:relative;
+   width: 25%;
+}
